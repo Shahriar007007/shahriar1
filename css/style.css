@@ -1,0 +1,99 @@
+*{
+	padding:0;
+	margin: 0; 
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: monospace;
+	height: 2000px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: initial;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+	left:20%;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	transform: translateX(-50%,-50%);
+
+}
+.fb{
+	position: fixed;
+	width: 220px;
+	right: -167px;
+	top: 50%;
+	transform: translateX(-50%,-50%)
+	;
+	transition: 1s;
+
+}
+.fb:hover{
+	right: 0;
+}
+.twiter{
+	width: 220px;
+	position: fixed;
+	right: -167px;
+	top: 40%;
+	transform: translateX(-50%,-50%);
+	transition: 1s;
+}
+.twiter:hover{
+	right: 0;
+
+}
+.insta{
+	right: -167px;
+	position: fixed;
+	top: 49%;
+	width: 220px; 
+	transition: 1s;
+	transform: translateX(-50%,-50%);   
+}
+.insta:hover{
+	right: 0;
+}
+
+.main{
+	text-align: center;
+	margin-top: 3%;
+}
+.main li{
+	list-style: none;
+	display: inline-block;
+}
+.main li a{
+	background: green;
+	font-size: 35px;
+	color: red;
+	width: 70px;
+	height: 70px;
+	display: block;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 50%;
+	margin: 10px 10px;
+	transition: 1s;
+
+
+}
+.main li a:hover{
+	background: gold;
+	color: purple;
+
+}
